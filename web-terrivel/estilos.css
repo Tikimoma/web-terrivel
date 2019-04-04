@@ -1,0 +1,54 @@
+@import "fonts/ravie.css";
+
+#numero{
+  width: 37px;
+}
+
+
+h1{
+  font-family: 'Ravie', serif;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  text-shadow: 2px 2px rgb(100, 100, 255);
+}
+
+#verde{
+  color: #00FF21;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#formulario
+{
+  width: fit-content;
+  margin: auto;
+  display:block;
+}
+
+#fieldset1
+{
+  width:300px;
+  height:250px;
+}
+
+#fieldset2
+{
+  width:320px;
+  height:270px;
+}
+legend
+{
+  font-style:bold;
+  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+}
+
+/*
+display: table;
+display: table-row;
+display: table-cell;
+*/
